@@ -1,0 +1,12 @@
+.input-with-select {
+    display: flex;
+}
+
+.world_search {
+    display: flex;
+    padding: 25px 5px 0;
+}
+
+.search_all {
+    padding: 25px 5px 0;
+}

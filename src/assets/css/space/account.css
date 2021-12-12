@@ -1,0 +1,317 @@
+.account_main {
+    display: flex;
+}
+
+#account_aside_content {
+    margin-left: 17.5%;
+    width: 12.5%;
+}
+
+#account_page {
+    height: auto;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+    transition: all 0.3s;
+    padding: 30px 44px 30px;
+}
+
+.account_items_default {
+    width: 100%;
+    text-align: center;
+}
+
+#account_items_default_img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #account_page {
+        margin: 0;
+        padding: 1.8rem 1.3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #account_page {
+        width: 100% !important;
+    }
+}
+
+.aside_content_header_text {
+    display: block;
+    height: 50px;
+    margin-right: 0.5rem;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #99a2aa;
+    border-bottom: 1px solid #e1e2e5;
+}
+
+.account_index_text {
+    margin-right: 0.5rem;
+    font-size: 14px;
+    color: #222;
+    line-height: 48px;
+    text-align: -webkit-match-parent;
+}
+
+.account_index_text_selected {
+    margin-right: 0.5rem;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: -webkit-match-parent;
+}
+
+.selected_index_box {
+    background-color: #00a1d6;
+}
+
+.account_item-headline {
+    text-align: center;
+}
+
+.items_container {
+    width: 100%;
+}
+
+.account_cutLine {
+    width: 100%;
+    height: 2px;
+    background: #e5e9ef;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.account_personalInfo {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.account_personalInfo_submit {
+    width: 100%;
+    text-align: center;
+}
+
+.account_question_submit {
+    width: 100%;
+    text-align: center;
+}
+
+.account_contact_try {
+    margin-top: 4px;
+    position: absolute;
+    right: 0;
+}
+
+.account_contact {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.account_question {
+    width: 90%;
+    margin-left: 5%;
+    padding: 1.5rem 0 1.5rem;
+}
+
+.account_friendList {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.friend-card {
+    border-radius: 12px 8px 8px 12px;
+}
+
+.black-card {
+    border-radius: 12px 8px 8px 12px;
+}
+
+@media (max-width: 759px) {
+    .friend-card {
+        margin-top: 1rem;
+    }
+
+    .black-card {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 760px) {
+    .friend-card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px 18px 10px;
+        height: auto;
+    }
+
+    .black-card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px 18px 10px;
+        height: auto;
+    }
+
+    .on-hover {
+        transition: all 0.6s;
+    }
+
+    .friend-card:hover .on-hover {
+        transform: scale(1.1);
+    }
+
+    .black-card:hover .on-hover {
+        transform: scale(1.1);
+    }
+}
+
+.account_friend-card_container {
+    display: flex;
+}
+
+.account_blackList_container {
+    display: flex;
+}
+
+.account_friend-card_avatar {
+    padding-top: 8px;
+    padding-right: 18px;
+}
+
+.account_blackList_avatar {
+    padding-top: 8px;
+    padding-right: 18px;
+}
+
+.account_friend-card_userInfo {
+    display: block;
+    padding-top: 10px;
+}
+
+.account_blackList_userName {
+    display: block;
+}
+
+.account_friend-card_userInfo_userName {
+    color: rgb(251, 114, 153);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-word;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.account_blackList_content_userName {
+    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-word;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.account_friend-card_userInfo_userIntro {
+    line-height: 14px;
+    font-size: 12px;
+    color: #6d757a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-word;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    text-align: -webkit-match-parent;
+}
+
+.account_friend-card_menu {
+    display: flex;
+    height: 30%;
+    position: absolute;
+    right: 18px;
+    top: 35%;
+}
+
+.account_blackList_remove {
+    display: flex;
+    height: 30%;
+    position: absolute;
+    right: 18px;
+    top: 35%;
+}
+
+.account_avatar {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+}
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.account_avatar_old {
+    width: 178px;
+    height: 178px;
+    display: block;
+    text-align: center;
+}
+
+.account_avatar_old_img {
+    width: 100%;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.account_avatar_container {
+    display: flex;
+    margin: 20px auto 0;
+
+}
+
+.account_question_space {
+    min-height: 2rem;
+}

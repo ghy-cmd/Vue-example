@@ -1,0 +1,234 @@
+.layout_page_ver {
+    display: block;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0 5px;
+    max-width: 1400px;
+}
+
+#upper_content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#upper_content .card-widget {
+    overflow: hidden;
+    margin: 10px 0;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+    box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#upper_content .card-content {
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-content: center;
+}
+
+#upper_content .card-content img {
+    display: inline-block;
+    padding: 5px;
+    width: 160px;
+    height: 160px;
+    border-radius: 70px;
+    vertical-align: top;
+    transition: all 0.3s;
+}
+
+.upper_username {
+    display: block;
+    bottom: 0;
+    left: 143px;
+    padding: 0;
+    font-family: punctuation, "PingFangSC-Regular", "Microsoft Yahei",
+    "sans-serif";
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 1.334;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+.upper_username_text {
+    text-shadow: 1px 1px 1px #666, 3px 3px 5px black;
+    color: #c3c3fc;
+    vertical-align: middle;
+    display: table-cell;
+    margin-right: 10px;
+    font-size: 40px;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 1.334;
+}
+
+.upper_intro {
+    font-size: 16px;
+    float: right;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.upper_weather {
+    display: flex;
+    align-items: center;
+}
+
+#lower_content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+#lower_content .card-widget {
+    overflow: hidden;
+    margin: 10px 0;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+    box-shadow: 0 4px 8px 6px rgba(7, 17, 27, 0.06);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#lower_content .card-content {
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-content: center;
+}
+
+.album_container {
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+
+.album_container img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+.album_img {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    margin: 5%;
+    position: relative;
+    float: left;
+}
+
+.album_content {
+    display: block;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#album_delete {
+    margin: 0;
+}
+
+.bottom {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+    background-color: #d3dce6;
+}
+
+.view_album_container {
+    display: block;
+    text-align: center;
+    width: 100%;
+    min-height: 145px;
+}
+
+.album_null {
+    margin-top: 4rem;
+    border-radius: 10px;
+    zoom: 50%;
+}
+
+.view_picture_container {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    margin: 5%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.view_picture_img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+.view_picture {
+    margin-top: 1.75rem;
+}
+
+.picture_drawer_container img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.view_picture_img_outer {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.deldel {
+    margin-bottom: 15%;
+}

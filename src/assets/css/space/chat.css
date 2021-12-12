@@ -1,0 +1,122 @@
+#chatBox {
+    height: 75%;
+    overflow-y: scroll;
+    text-align: center;
+    border-right: 1px #e9eaec solid;
+    border-left: 1px #e9eaec solid;
+    border-bottom: 1px #e9eaec solid;
+    border-radius: 4px;
+    background-color: #f4f5f7;
+}
+
+#sendBox {
+    position: sticky;
+    border-right: 1px #e9eaec solid;
+    border-left: 1px #e9eaec solid;
+    border-bottom: 1px #e9eaec solid;
+    border-radius: 4px;
+}
+
+.temp_content {
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+#chat_page {
+    height: 35rem;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 4px 8px 6px rgba(7, 17, 27, .06);
+    transition: all .3s;
+    padding: 20px 44px 44px;
+}
+
+@media screen and (max-width: 768px) {
+    #chat_page {
+        margin: 0;
+        padding: 1.8rem 1.3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #chat_page {
+        width: 100% !important;
+    }
+}
+
+#content-outer {
+    margin-top: 2rem;
+}
+
+#sendButton {
+    float: right;
+    margin-top: 0.5rem;
+}
+
+.el-menu-demo {
+    border: 1px #e9eaec solid;
+    border-radius: 4px;
+}
+
+.friendInfo {
+    display: flex;
+    margin-top: 1rem;
+    border: 1px #e9eaec solid;
+    border-radius: 40px;
+    background-color: #f4f5f7;
+    margin-right: 15px;
+}
+
+.friendInfo_left {
+    margin: 0.5rem;
+}
+
+.friendInfo_right {
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+strong {
+    color: #555;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.friendListBox {
+    max-height: 25rem;
+    overflow-y: scroll;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.singleChatMessage {
+    display: flex;
+    margin-top: 1rem;
+    border-radius: 40px;
+    background-color: #fff;
+    align-content: center;
+    margin-left: 1rem;
+    width: fit-content;
+}
+
+.bubble {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.aside_content_header_text {
+    display: block;
+    height: 50px;
+    margin-right: 0.5rem;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #99a2aa;
+    cursor: default;
+    border-bottom: 1px solid #e1e2e5;
+}
